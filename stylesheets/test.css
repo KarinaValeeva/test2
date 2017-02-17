@@ -27,7 +27,7 @@ html, body {
   font-size: 1vw;
   color: #FEFCFC;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  /*margin-bottom: 10px;*/
 }
 
 .Wrapper {
@@ -39,7 +39,7 @@ html, body {
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
-  /*overflow-y: scroll;*/
+  overflow-y: scroll;
 }
 
 .section1 {
@@ -47,45 +47,35 @@ margin-top: 100px;
 }
 
 .container, .container1, .container2 {
-  padding: 30px 0 20px;
   width: 210px;
   height: 210px;
   text-align: center;
   float: left;
-
 }
 
-#cup {
+.cup {
   width: 150px;
   height: 150px;
   background-image: url(../images/cup.svg);
+  background-repeat: no-repeat;
   margin-left: 35px;
-  /*z-index: 1*/
 }
 
-/*#espresso1 {
-  background-image: url(../images/espresso1.svg);
+
+/*.container figure {
+  width: 100%;
+  height: 100%;
+  /*margin-bottom: -150px;*/
+
+.cup figure {
   width: 150px;
-  height: 150px;
-}*/
-
-ul {
-  list-style: none;
-  padding:  0 0 0 0;
-  display: inline-block;
-  /*background: #3C4147;*/
-  border-radius: 10px;
-  box-shadow: inset 2px 2px 5px rgba(0,0,0,.7), 2px 2px 1px #3C4147;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin-bottom: -7px;
+  margin-left: 18px;
 }
 
-figure {
-  /*margin-left: 20px;*/
-  width: 150px;
-  height: 150px;
-}
-
-
-.container1 li {
+/*.container1 li {
   width: 100px;
   height: 30px;
 }
@@ -93,20 +83,16 @@ figure {
 .container2 li {
   width: 100px;
   height: 30px;
-}
+}*/
 
-@keyframes m2 {
- 100%{background-image: url(../images/espresso1.svg);
-   background-repeat: no-repeat;}
+/*@keyframes m2 {
+ 100%{background-image: url(../images/espresso1.svg);}
 }
 @keyframes m1 {
-  100%{background-image: url(../images/espresso1.svg);
-    background-repeat: no-repeat;}
-}
+  100%{background-image: url(../images/espresso1.svg);}
+}*/
 @keyframes m {
-  100%{
-    background-image: url(../images/espresso1.svg);
-    background-repeat: no-repeat;}
+  100%{background-image: url(../images/espresso1.svg);}
 }
 
 figure:nth-of-type(3) {
