@@ -46,43 +46,102 @@ html, body {
 margin-top: 100px;
 }
 
+.section2 {
+  top: 50px;
+}
+
+.section3 {
+  margin-top: 100px;
+}
+
 .container, .container1, .container2 {
-  width: 210px;
-  height: 210px;
+  width: 300px;
+  height: 300px;
   text-align: center;
   float: left;
 }
 
 .cup,
-.cup1 {
+.cup1,
+.cup2 {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   background-image: url(../images/cup1.svg);
   cursor: pointer;
   background-repeat: no-repeat;
   margin-left: 35px;
 }
 
-  .first  {
-  width: 127px;
-  height: 35px;
+.cup3,
+.cup4,
+.cup5,
+.cup6,
+.cup7,
+.cup8 {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  background-image: url(../images/cup2.svg);
+  cursor: pointer;
   background-repeat: no-repeat;
-  margin-left: 16px;
-  margin-top: 70px;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+.first  {
+  width: 155px;
+  height: 85px;
+  background-repeat: no-repeat;
+  margin-left: 28px;
+  margin-top: 118px;
   background-image: url(../images/espresso1.svg);
   display: none;
 }
 
-  .second  {
-  width: 140px;
-  height: 45px;
+.second  {
+  width: 170px;
+  height: 85px;
   background-repeat: no-repeat;
-  margin-left: 16px;
-  margin-top: 60px;
+  margin-left: 22px;
+  margin-top: 100px;
   background-image: url(../images/espresso2.svg);
   display: none;
 }
+
+
+.third {
+  width: 180px;
+  height: 15px;
+  background-repeat: no-repeat;
+  margin-left: 17px;
+  margin-top: 92px;
+  background-image: url(../images/foamedmilk.svg);
+  display: none;
+  }
+
+.fourth {
+  width: 175px;
+  height: 85px;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-top: 95px;
+  background-image: url(../images/espresso2.svg);
+  display: none;
+}
+
+.fifth {
+  width: 195px;
+  height: 43px;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+  margin-top: 56px;
+  background-image: url(../images/cream.svg);
+  display: none;
+}
+  figure {
+    position: absolute;
+  }
 
 /*@keyframes m2 {
  100%{background-image: url(../images/espresso.svg);}
