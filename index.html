@@ -4,8 +4,31 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="stylesheets/style.css">
+      <script src="javascripts/jquery.js" charset="utf-8"></script>
+      <script src="javascripts/click.js" charset="utf-8"></script>
+
   </head>
   <body>
+
+    <!-- <div class="demo animated">
+      <p>This text will animate. <a href="" id="ref">Click to animate!</a></p>
+    </div> -->
+
+    <!-- <script language="javascript">
+        $(function() {
+      $("#ref").click(function() {
+                animate(".demo", 'bounce');
+                return false;
+            });
+        });
+
+        function animate(element_ID, animation) {
+            $(element_ID).addClass(animation);
+            var wait = window.setTimeout( function(){
+                $(element_ID).removeClass(animation)}, 1300
+        );  }
+    </script> -->
+
 <!--
   <div class="header">
     <p>Just CLIK and find the difference</p>
@@ -13,35 +36,33 @@
 
   <section class="Wrapper">
     <div class="header">
-      <p>Just CLIK and find the difference</p>
+      <p class="animated fadeInDown">Just CLIK and find the difference</p>
     </div>
 
     <section class="section1">
       <div class="container">
         <p>Espresso</p>
         <div class="cup">
-          <figure></figure>
-          <figure></figure>
-          <figure></figure>
+          <figure class="first animated fadeInDown"></figure>
         </div>
       </div>
 
       <div class="container1">
-        <p>Cuppuchino</p>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+        <p>Macchiato</p>
+        <div class="cup1">
+          <figure></figure>
+          <figure></figure>
+          <figure class="second animated fadeInDown"></figure>
+        </div>
       </div>
 
       <div class="container2">
         <p>Cuppuchino</p>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+        <div class="cup">
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+        </div>
       </div>
     </section>
 
