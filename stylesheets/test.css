@@ -1,6 +1,7 @@
 
 * {
   box-sizing: border-box;
+  -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 
@@ -9,7 +10,7 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   /*background-color: #333333;*/
   background-color: #74596a;
-    background-color: #986960;
+  background-color: #986960;
 }
 
 .Wrapper .header  {
@@ -34,8 +35,15 @@ html, body {
 
 .Wrapper {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
   width: 100vw;
