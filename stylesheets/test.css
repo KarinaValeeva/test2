@@ -7,7 +7,9 @@
 html, body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
-  background-color: #333333;
+  /*background-color: #333333;*/
+  background-color: #74596a;
+    background-color: #986960;
 }
 
 .Wrapper .header  {
@@ -24,7 +26,7 @@ html, body {
 
 .Wrapper p {
   display: block;
-  font-size: 1vw;
+  font-size: 15px;
   color: #FEFCFC;
   text-transform: uppercase;
   /*margin-bottom: 10px;*/
@@ -111,12 +113,12 @@ margin-top: 100px;
 
 
 .third {
-  width: 180px;
-  height: 15px;
+  width: 200px;
+  height: 24px;
   background-repeat: no-repeat;
   margin-left: 17px;
-  margin-top: 92px;
-  background-image: url(../images/foamedmilk.svg);
+  margin-top: 83px;
+  background-image: url(../images/foamedmilk1.svg);
   display: none;
   }
 
@@ -139,9 +141,40 @@ margin-top: 100px;
   background-image: url(../images/cream.svg);
   display: none;
 }
-  figure {
+
+.six {
+  width: 240px;
+  height: 84px;
+  background-repeat: no-repeat;
+  margin-left: 13px;
+  margin-top: 117px;
+  background-image: url(../images/espresso2.svg);
+  display: none;
+}
+
+.seven {
+  width: 200px;
+  height: 65px;
+  background-repeat: no-repeat;
+  margin-left: 6px;
+  margin-top: 57px;
+  background-image: url(../images/steamedmilk.svg);
+  display: none;
+}
+
+.eight {
+  width: 200px;
+  height: 65px;
+  background-repeat: no-repeat;
+  margin-left: 6px;
+  margin-top: 10px;
+  background-image: url(../images/foamedmilkbig.svg);
+  display: none;
+}
+
+figure {
     position: absolute;
-  }
+}
 
 /*@keyframes m2 {
  100%{background-image: url(../images/espresso.svg);}
