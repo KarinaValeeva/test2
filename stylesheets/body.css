@@ -98,3 +98,34 @@ margin-top: 130px;
 figure {
     position: absolute;
 }
+
+@media screen and (max-width: 900px) {
+
+  .container,
+  .container1,
+  .container2 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    float: none;
+  }
+
+
+  .Wrapper .header p  {
+    font-size: 18px;
+  }
+
+  .Wrapper p {
+    font-size: 14px;
+  }
+  .section1 {
+  margin-top: 100px;
+  }
+
+  .section2 {
+    margin-top: 20px;
+
+  }
+  .section3 {
+    margin-top: 80px;
+  }
