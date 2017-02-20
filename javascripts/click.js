@@ -1,6 +1,6 @@
 $(function() {
   $(".cup").click(function () {
-    $(".first").fadeIn("Down")
+    $(".cup figure:hidden:last").fadeIn("Down")
   })
 })
 
