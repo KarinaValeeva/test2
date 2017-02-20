@@ -27,7 +27,7 @@ html, body {
 
 .Wrapper p {
   display: block;
-  font-size: 15px;
+  font-size: 20px;
   color: #FEFCFC;
   text-transform: uppercase;
   /*margin-bottom: 10px;*/
@@ -99,6 +99,10 @@ margin-top: 100px;
   margin-top: 40px;
 }
 
+figure {
+    position: absolute;
+}
+
 .first  {
   width: 155px;
   height: 85px;
@@ -142,9 +146,9 @@ margin-top: 100px;
 
 .fifth {
   width: 195px;
-  height: 43px;
+  height: 48px;
   background-repeat: no-repeat;
-  margin-left: 15px;
+  margin-left: 13px;
   margin-top: 56px;
   background-image: url(../images/cream.svg);
   display: none;
@@ -180,9 +184,118 @@ margin-top: 100px;
   display: none;
 }
 
-figure {
-    position: absolute;
+.nine {
+  width: 240px;
+  height: 84px;
+  background-repeat: no-repeat;
+  margin-left: 13px;
+  margin-top: 117px;
+  background-image: url(../images/espresso2.svg);
+  display: none;
 }
+
+.ten {
+  width: 200px;
+  height: 98px;
+  background-repeat: no-repeat;
+  margin-left: 6px;
+  margin-top: 43px;
+  background-image: url(../images/hotwater.svg);
+  display: none;
+}
+
+.eleven {
+  width: 240px;
+  height: 84px;
+  background-repeat: no-repeat;
+  margin-left: 13px;
+  margin-top: 117px;
+  background-image: url(../images/espresso2.svg);
+  display: none;
+}
+
+.twelve {
+  width: 195px;
+  height: 90px;
+  background-repeat: no-repeat;
+  margin-left: 9px;
+  margin-top: 63px;
+  background-image: url(../images/chocolate.svg);
+  display: none;
+}
+
+.thirteen {
+  width: 200px;
+  height: 98px;
+  background-repeat: no-repeat;
+  margin-left: 6px;
+  margin-top: 30px;
+  background-image: url(../images/steamedmilk1.svg);
+  display: none;
+}
+
+.fourteen {
+  width: 240px;
+  height: 84px;
+  background-repeat: no-repeat;
+  margin-left: 13px;
+  margin-top: 117px;
+  background-image: url(../images/espresso2.svg);
+  display: none;
+}
+
+.fifteen {
+  width: 201px;
+  height: 134px;
+  background-repeat: no-repeat;
+  margin-left: 6px;
+  margin-top: 15px;
+  background-image: url(../images/foamedmilk2.svg);
+  display: none;
+}
+
+.sixteen {
+  width: 240px;
+  height: 84px;
+  background-repeat: no-repeat;
+  margin-left: 13px;
+  margin-top: 117px;
+  background-image: url(../images/espresso2.svg);
+  display: none;
+}
+
+.seventeen {
+  width: 180px;
+  height: 134px;
+  background-repeat: no-repeat;
+  margin-left: 19px;
+  margin-top: 15px;
+  background-image: url(../images/icecream.svg);
+  display: none;
+  z-index: 2;
+}
+
+.eighteen {
+  width: 240px;
+  height: 84px;
+  background-repeat: no-repeat;
+  margin-left: 13px;
+  margin-top: 117px;
+  background-image: url(../images/espresso2.svg);
+  display: none;
+}
+
+.nineteen {
+  width: 180px;
+  height: 150px;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+  margin-top: -5px;
+  background-image: url(../images/whippedcream.svg);
+  display: none;
+  z-index: 2;
+}
+
 
 /*@keyframes m2 {
  100%{background-image: url(../images/espresso.svg);}
