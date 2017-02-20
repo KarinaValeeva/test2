@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #986960;
+}
+
+.Wrapper .header  {
+  display: block;
+  color: #FEFCFC;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+
+.Wrapper .header p  {
+  font-size: 3vw;
+}
+
+.Wrapper p {
+  font-size: 20px;
+  color: #FEFCFC;
+  text-transform: uppercase;
+}
+
+.Wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  overflow-y: scroll;
+}
+
+.section1 {
+margin-top: 130px;
+}
+
+.section2 {
+  margin-top: 30px;
+}
+
+.section3 {
+  margin-top: 105px;
+}
+
+.container,
+.container1,
+.container2 {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  float: left;
+}
+.cup,
+.cup1,
+.cup2 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  margin-top: -15px;
+  margin-left: 40px;
+  background-image: url(../images/cup1.svg);
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.cup3,
+.cup4,
+.cup5,
+.cup6,
+.cup7,
+.cup8 {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: 45px;
+  background-image: url(../images/cup2.svg);
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+figure {
+    position: absolute;
+}
