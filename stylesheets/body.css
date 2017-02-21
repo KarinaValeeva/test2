@@ -116,16 +116,28 @@ figure {
   }
 
   .Wrapper p {
-    font-size: 14px;
+    margin-top: 50px;
+    font-size: 16px;
   }
   .section1 {
   margin-top: 100px;
   }
 
   .section2 {
-    margin-top: 20px;
+    margin-top: -40px;
 
   }
   .section3 {
-    margin-top: 80px;
+    margin-top: -10px;
+  }
+
+  .cup3 {
+    margin-top: 40px;
+  }
+
+  .text1,
+  .text2 {
+    width: 80px;
+    height: 80px;
+    margin-left: 72px;
   }

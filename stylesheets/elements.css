@@ -64,17 +64,17 @@
   height: 65px;
   background-repeat: no-repeat;
   margin-left: 6px;
-  margin-top: 57px;
+  margin-top: 60px;
   background-image: url(../images/steamedmilk.svg);
   display: none;
 }
 
 .eight {
-  width: 200px;
-  height: 65px;
+  width: 202px;
+  height: 80px;
   background-repeat: no-repeat;
   margin-left: 6px;
-  margin-top: 10px;
+  margin-top: 11px;
   background-image: url(../images/foamedmilkbig.svg);
   display: none;
 }
