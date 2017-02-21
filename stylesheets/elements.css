@@ -190,24 +190,21 @@
   display: none;
   z-index: 2;
 }
-.text1 {
+.text1,
+.text2 {
   width: 100px;
   height: 100px;
-  margin-top: 210px;
-  margin-left: 65px;
   background-repeat: no-repeat;
   background-image: url(../images/p.svg);
   display: none;
   z-index: 1;
 }
 
+.text1{
+  margin-top: 210px;
+  margin-left: 65px;
+}
 .text2 {
-  width: 100px;
-  height: 100px;
   margin-top: 240px;
   margin-left: 65px;
-  background-repeat: no-repeat;
-  background-image: url(../images/p.svg);
-  display: none;
-  z-index: 1;
 }
